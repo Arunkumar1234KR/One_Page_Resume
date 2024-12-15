@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Arunkumar KR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Top Section */
+        .top-section {
+            height: 100%;
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            top: 20px;
+        }
+
+        .top-section h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        .top-section p {
+            font-size: 1.2em;
+            margin: 5px 0 0;
+        }
+
+        /* Left Section */
+        .left-section {
+            float: left;
+            width: 23%;
+            height: px;
+            background-color: #e4e4e4;
+            color: #004aad;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            left: 20px;
+            z-index: 0;
+        }
+
+        .left-section img {
+            width: 130px;
+            height: 150px;
+            border-radius: 0%;
+            border: 2px solid #004aab;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .info {
+            text-align: left;
+            margin-top: 10px;
+        }
+        .info h3 {
+        border-bottom: 1px solid #004aad;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        color: #004aad;
+    }
+        .info-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .info-item i {
+            margin-right: 10px;
+            font-size: 1.2em; /* Minimized circle size */
+            background-color: #004aab;
+            color: #e4e4e4;
+            border-radius: 50%;
+            padding: 8px; /* Adjusted padding for smaller circles */
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .info-item i:hover {
+            background-color: #e4e4e4;
+            color: #004aab;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .info-item span {
+            font-size: 1em;
+        }
+
+        a {
+            color: #004aad;
+            text-decoration: underline;
+        }
+
+        .skills-section {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .skills-section h3 {
+            border-bottom: 1px solid #004aad;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color: #004aad;
+        }
+
+        .skills-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skills-section ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Right Section */
+        .right-section {
+            margin-left: 30%;
+            padding: 20px;
+            text-align: left; /* Ensures no gap */
+           
+        }
+
+        .section-title {
+            border-bottom: 2px solid #004aad;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            color: #004aad;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 768px) {
+            .container {
+                flex-wrap: wrap;
+            }
+
+            .left-section {
+                width: 100%;
+                left: 0;
+            }
+
+            .right-section {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Top Section -->
+        <div class="top-section">
+            <h1>Arunkumar KR</h1>
+            <p>B.Tech IT | Velammal College of Engineering and Technology</p>
+        </div>
+
+        <!-- Left Section -->
+        <div class="left-section">
+            <img src="images_Arun/arun copy.jpg" alt="Profile Picture">
+            <div class="info">
+                <h3>Contact</h3>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i> <span>krarun2504@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i> <span>+91 8778588180</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i> <span>54 Srinivasa Nagar, Thirunagar, Madurai - 625006</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-globe"></i> <span><a href="#">Visit Website</a></span>
+                </div>
+            </div>
+
+            <div class="skills-section">
+                <h3>Soft Skills</h3>
+                <ol style=" list-style-type: disc;">
+                    <li> Teamwork</li>
+                    <li> Time Management</li>
+                    <li> Leadership</li>
+                    <li> Effective Communication</li>
+                    <li> Critical Thinking</li>
+                </ol>
+                <h3>Technical Skills</h3>
+                <ol style=" list-style-type: disc;">
+                    <li>Python, Java, C Programming</li>
+                    <li> HTML, CSS, JavaScript</li>
+                    <li> SQL, MySQL</li>
+                    <li> Machine Learning Basics</li>
+                </ol>
+                <h3>Languages</h3>
+                <ol style=" list-style-type: disc;">
+                    <li>Tamil (Fluent)</li>
+                    <li>English</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-user"></i> Professional Objective</h2>
+                <p>To enhance my knowledge in newer technologies and benefit the organization I work for. Further, to learn at every phase of my life and evolve any hardship through my critical thinking and problem-solving capabilities.</p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+                <ul>
+                    <li><strong>Velammal College of Engineering and Technology</strong></li>
+                    <li>B.Tech Information Technology -</li>
+                    <li><strong>CGPA</strong> 8.71</li><br>
+                    <li><strong>Muthuthevar Mukkulathore Hr. Sec. School</strong></li>
+                    <li><strong>HSC</strong> (2022) - 92.50%</li>
+                    <li><strong>SSLC</strong> (2020) - 85.40%</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-briefcase"></i> Internship</h2>
+                <ul>
+                    <li><strong>Reccsar Private Limited</strong> (Dec 2023 - Jan 2024): Developed an e-commerce platform with features like product listings, shopping cart, and payment gateway integration.</li><br>
+                    <li><strong>Elysium Technologies Pvt. Ltd</strong> (June 2024 - July 2024): Built a real-time chat application enabling users to send instant messages and share multimedia content.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-folder-open"></i> Projects</h2>
+                <ul>
+                    <li><strong>Fruit Health Analysis:</strong> Image processing to classify and grade fruits by quality.</li>
+                    <li><strong>Library Management System:</strong> Automated library tasks like cataloging and reservations.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-certificate"></i> Certifications</h2>
+                <ul>
+                    <li>TCS iON Career Edge – Young Professional</li>
+                    <li>E-Business - NPTEL</li>
+                    <li>Cybersecurity for Beginners - Microsoft</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-folder-open"></i> Declaration</h2>
+            
+                    <li><strong>I, Arunkumar K R, hereby declare that the information provided above is true to the best
+                        of my knowledge.</strong></li>
+                   
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
